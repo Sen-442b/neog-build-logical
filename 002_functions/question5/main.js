@@ -5,10 +5,10 @@
 // (Hint: Lookup rest parameters in JavaScript)
 
 
-function findMin(...numArr){
+function findMax(...numArr){
     const result = Math.max(...numArr)
     console.log(result);
 
 }
 
-findMin(343,343,46463,34,35,34,34,2);
+findMax(343,343,46463,34,35,34,34,2);
